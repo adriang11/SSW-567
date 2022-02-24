@@ -5,4 +5,4 @@ install:
   - pip install requests
 # command to run tests
 script:
-  - python hw4.py getInfo
+  - python hw4/hw4.py getInfo
