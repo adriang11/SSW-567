@@ -1,5 +1,5 @@
 from unittest.mock import Mock, patch
-from hw4 import getInfo
+from getInfo import getInfo
 
 @patch('getInfo.requests.get')
 def test_getting_commits(mock_get):
